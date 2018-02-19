@@ -1,0 +1,39 @@
+{
+  "name": "svg-protect",
+  "version": "1.0.0",
+  "description": "Flatten, optimise, CC Lisence and split paths to prevent Illustrators from changing your work without permission. ",
+  "main": "index.js",
+  "scripts": {
+  },
+  "engines": {
+  "node": ">=4.2.4"
+},
+  "dependencies": {
+    "svgo": "^1.0.4",
+    "text-to-svg": "^3.1.3",
+    "triangulate-contours": "^1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfiex/svg-protect.git"
+  },
+  "keywords": [
+    "svg",
+    "protect",
+    "save",
+    "illustrator",
+    "flatten",
+    "path",
+    "split",
+    "lisence",
+    "creative",
+    "commons"
+  ],
+  "author": "Daniel Ellis <daniel.ellis.research@googlemail.com> "
+,
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wolfiex/svg-protect/issues"
+  },
+  "homepage": "https://github.com/wolfiex/svg-protect#readme"
+}
