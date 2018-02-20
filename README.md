@@ -24,21 +24,36 @@ Illustrator/Publsher proof your svgs before downloading.
         })
 
 
-#### Flatten - removes groups and adds all elements to base svg
+#### 1. Flatten -
 
-#### Element IDS - overwrites element IDS
+Removes groups and adds all elements to base svg
 
-#### Split
+#### 2. Element IDS -
 
-Applies @mattdesl's triangle splitting of paths to svg,
-<img src="@mattdesl.gif" width="200" height="200" />
+Overwrites element IDS
 
-#### cclicense - appends the creative commons lisence to svg as a comment.
+#### 3. Split -
 
-#### savestyle, set save style from svge,svg,padding
+Applies @mattdesl's triangle style splitting of paths to svg
 
-#### savebtn, create a button you can click to save your work. id = savebtn
-saving functions written with the help of the SVG Jimmy crowbar bookmarks: https://nytimes.github.io/svg-crowbar/
+
+
+<img src="@mattdesl.gif" width="400" height="300" />
+
+#### 4. CC license -
+
+Appends the creative commons lisence to svg as a comment.
+
+#### 5. Save Style-
+
+Set save style from svge|svg|png
+
+#### 6. Save Button -
+
+Create a button you can click to save your work.
+    id = savebtn 
+
+Saving functions written with the help of the SVG Jimmy crowbar bookmarks: https://nytimes.github.io/svg-crowbar/
 
 
 
