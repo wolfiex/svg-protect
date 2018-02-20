@@ -33,7 +33,7 @@ module.exports = function(svgDOM, opt) {
     return new SVGO({
       plugins: [
         {
-          convertShapeToPath: { convertArcs: split }
+          convertShapeToPath: split? { convertArcs: true }:false
         },
         {
           cleanupAttrs: true
@@ -87,7 +87,7 @@ module.exports = function(svgDOM, opt) {
           convertColors: true
         },
         {
-          convertPathData: true
+          convertPathData: split
         },
         {
           convertTransform: true
@@ -205,7 +205,7 @@ module.exports = function(svgDOM, opt) {
       polygon.points.appendItem(point);
     }
     //polygon.style = "fill:" + p + ";stroke:p;stroke-width:0";
-    polygon.style='stroke:red;stroke-opacity:0';
+    polygon.style='stroke:none;stroke-opacity:0';
     ///console.log(polygon)
     svg.appendChild(polygon);
   }
