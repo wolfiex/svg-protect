@@ -7,7 +7,8 @@ Illustrator/Publsher proof your svgs before downloading.
   `npm install svg-protect`
 
 ## Usage
-=========
+
+
     const svgp = require('svg-protect');
 
     var svg = document.getElementById('mysvg')
@@ -51,7 +52,7 @@ Set save style from svge|svg|png
 #### 6. Save Button -
 
 Create a button you can click to save your work.
-    id = savebtn 
+    id = savebtn
 
 Saving functions written with the help of the SVG Jimmy crowbar bookmarks: https://nytimes.github.io/svg-crowbar/
 
