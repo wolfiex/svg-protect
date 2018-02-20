@@ -10,17 +10,37 @@ Illustrator/Publsher proof your svgs before downloading.
 =========
     const svgp = require('svg-protect');
 
-    var svg = document.getGetElementById('mysvg')
+    var svg = document.getElementById('mysvg')
 
-    svggp(svg,{
-                  owner:"Dan Ellis <my_email@test.com>"
+    svgp(svg,{
+                  owner:"Dan Ellis <my_email@test.com>",
                   flatten:true,
                   elementids: "",
                   split:false,
                   cclicense:true,
                   cclogo:true,
-                  filename:"test"// dont include '.svg'
+                  savestyle: "svge" // "svge|svg|png"
+                  savebtn:true
         })
+
+
+#### Flatten - removes groups and adds all elements to base svg
+
+#### Element IDS - overwrites element IDS
+
+#### Split
+
+Applies @mattdesl's triangle splitting of paths to svg,
+<img src="@mattdesl.gif" width="200" height="200" />
+
+#### cclicense - appends the creative commons lisence to svg as a comment.
+
+#### savestyle, set save style from svge,svg,padding
+
+#### savebtn, create a button you can click to save your work. id = savebtn
+saving functions written with the help of the SVG Jimmy crowbar bookmarks: https://nytimes.github.io/svg-crowbar/
+
+
 
 
 ## Process

@@ -15,6 +15,7 @@
                   cclicense:true,
                   cclogo:true,
                   filename:"test"// dont include '.svg'
+                  savebtn:true
         })
  */
 module.exports = function(svgDOM, opt) {
@@ -180,6 +181,6 @@ module.exports = function(svgDOM, opt) {
 
 if (opt.flatten){flatten(svgDOM)}
 
-return svg 
+return svg
 
 };
