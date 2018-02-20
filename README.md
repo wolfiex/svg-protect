@@ -1,5 +1,5 @@
 # svg-protect
-Illustrator/Publsher proof your svgs before downloading.
+Illustrator/Publisher proof your svgs before downloading.
 =========
 
 ## Installation
@@ -43,7 +43,7 @@ Applies @mattdesl's triangle style splitting of paths to svg
 
 #### 4. CC license -
 
-Appends the creative commons lisence to svg as a comment.
+Appends the creative commons licence to svg as a comment.
 
 #### 5. Save Style-
 
@@ -66,7 +66,7 @@ This program takes several steps to attempt to protect an svg. These are:
 2. Optimise svg code and convert all elements into Paths.
 3. Rename all svg element ids to state ownership.   
 4. Split paths into triangles.
-5. Add CC Atrribution licence within svg comments.
+5. Add CC Attribution licence within svg comments.
 
 
 
