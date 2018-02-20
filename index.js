@@ -33,7 +33,7 @@ module.exports = function(svgDOM, opt) {
     return new SVGO({
       plugins: [
         {
-          convertShapeToPath: { convertArcs: true }
+          convertShapeToPath: { convertArcs: split }
         },
         {
           cleanupAttrs: true
